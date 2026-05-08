@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VaultWalls</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVIGATION BAR -->
+  <nav class="navbar">
+    <div class="nav-left"></div>
+    <div class="nav-center">
+      <div class="nav-center-group">
+        <button class="search-btn" id="searchBtn" aria-label="Search">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"/>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+          </svg>
+        </button>
+        <div class="nav-tabs">
+          <button class="nav-tab active" data-page="home">Home</button>
+          <button class="nav-tab" data-page="explore">Explore</button>
+          <button class="nav-tab" data-page="media">My Media</button>
+        </div>
+      </div>
+    </div>
+    <div class="nav-right">
+      <button class="nav-icon-btn" aria-label="Share">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/>
+          <polyline points="16 6 12 2 8 6"/>
+          <line x1="12" y1="2" x2="12" y2="15"/>
+        </svg>
+      </button>
+      <button class="nav-icon-btn" aria-label="Settings">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="3"/>
+          <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+        </svg>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MAIN -->
+  <main class="main">
+
+    <!-- HOME PAGE -->
+    <section id="page-home" class="page active">
+
+      <!-- HERO CAROUSEL -->
+      <div class="hero" id="hero">
+        <div class="hero-bg" id="heroBg"></div>
+        <div class="hero-gradient"></div>
+
+        <div class="hero-info" id="heroInfo">
+          <span class="hero-cat" id="heroCat"></span>
+          <h1 class="hero-title" id="heroTitle"></h1>
+          <p class="hero-meta" id="heroMeta"></p>
+          <div class="hero-actions">
+            <button class="btn-primary">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+                <polygon points="5 3 19 12 5 21 5 3"/>
+              </svg>
+              View Wallpaper
+            </button>
+            <button class="btn-ghost" id="heroLikeBtn">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+              <span id="heroLikes"></span>
+            </button>
+          </div>
+        </div>
+
+        <button class="hero-nav prev" id="heroPrev">&#10094;</button>
+        <button class="hero-nav next" id="heroNext">&#10095;</button>
+        <div class="hero-dots" id="heroDots"></div>
+      </div>
+
+      <!-- SHELVES -->
+      <div class="shelves">
+
+        <section class="shelf">
+          <header class="shelf-hdr">
+            <h2>Recommended For You</h2>
+            <button class="shelf-more">&#8250;</button>
+          </header>
+          <div class="shelf-row" id="shelf-recommended"></div>
+        </section>
+
+        <section class="shelf">
+          <header class="shelf-hdr">
+            <h2>Recently Created By Users</h2>
+            <button class="shelf-more">&#8250;</button>
+          </header>
+          <div class="shelf-row" id="shelf-recent"></div>
+        </section>
+
+      </div>
+    </section>
+
+    <!-- EXPLORE PAGE (shell) -->
+    <section id="page-explore" class="page">
+      <div class="empty-page">
+        <p>Explore — coming soon</p>
+      </div>
+    </section>
+
+    <!-- MY MEDIA PAGE (shell) -->
+    <section id="page-media" class="page">
+      <div class="empty-page">
+        <p>My Media — coming soon</p>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
