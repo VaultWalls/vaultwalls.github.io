@@ -1,0 +1,11 @@
+{
+  "name": "vaultwalls",
+  "version": "1.0.0",
+  "description": "VaultWalls wallpaper gallery — auto-generator",
+  "scripts": {
+    "generate": "node generate-wallpapers.js"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}

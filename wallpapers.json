@@ -1,0 +1,842 @@
+[
+  {
+    "id": 1,
+    "name": "Black Hole Scene",
+    "category": "Space",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/Space/Black%20Hole%20Scene.png",
+    "size": "2.4 MB",
+    "resolution": "1376×768"
+  },
+  {
+    "id": 2,
+    "name": "Deep Space Asteroid Field Near a Star",
+    "category": "Space",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/Space/Deep%20Space%20Asteroid%20Field%20Near%20a%20Star.jpeg",
+    "size": "2.4 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 3,
+    "name": "Earth from Low Earth Orbit at Night",
+    "category": "Space",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/Space/Earth%20from%20Low%20Earth%20Orbit%20at%20Night.jpeg",
+    "size": "2.8 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 4,
+    "name": "Mars Surface Dust Storm Horizon",
+    "category": "Space",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/Space/Mars%20Surface%20Dust%20Storm%20Horizon.jpeg",
+    "size": "3.4 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 5,
+    "name": "Moon Surface with Earthrise",
+    "category": "Space",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/Space/Moon%20Surface%20with%20Earthrise.jpeg",
+    "size": "3.4 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 6,
+    "name": "Nebula Galaxy",
+    "category": "Space",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/Space/Nebula%20Galaxy.png",
+    "size": "2.1 MB",
+    "resolution": "1376×768"
+  },
+  {
+    "id": 7,
+    "name": "Planet Orbit Scene",
+    "category": "Space",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/Space/Planet%20Orbit%20Scene.png",
+    "size": "2.1 MB",
+    "resolution": "1376×768"
+  },
+  {
+    "id": 8,
+    "name": "Saturn and Its Rings Close-Up",
+    "category": "Space",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/Space/Saturn%20and%20Its%20Rings%20Close-Up.jpeg",
+    "size": "2.1 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 9,
+    "name": "Crystal Gradient Layers",
+    "category": "Abstract",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/abstract/Crystal%20Gradient%20Layers.png",
+    "size": "2.0 MB",
+    "resolution": "1376×768"
+  },
+  {
+    "id": 10,
+    "name": "Crystalline Fragment Space",
+    "category": "Abstract",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/abstract/Crystalline%20Fragment%20Space.jpeg",
+    "size": "2.2 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 11,
+    "name": "Glass Flow",
+    "category": "Abstract",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/abstract/Glass%20Flow.png",
+    "size": "1.9 MB",
+    "resolution": "1376×768"
+  },
+  {
+    "id": 12,
+    "name": "Liquid Light Flow",
+    "category": "Abstract",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/abstract/Liquid%20Light%20Flow.jpeg",
+    "size": "2.1 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 13,
+    "name": "Liquid Metal Waves",
+    "category": "Abstract",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/abstract/Liquid%20Metal%20Waves.png",
+    "size": "1.9 MB",
+    "resolution": "1376×768"
+  },
+  {
+    "id": 14,
+    "name": "Magnetic Particle Field",
+    "category": "Abstract",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/abstract/Magnetic%20Particle%20Field.jpeg",
+    "size": "3.3 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 15,
+    "name": "Metallic Liquid Mirror Forms",
+    "category": "Abstract",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/abstract/Metallic%20Liquid%20Mirror%20Forms.jpeg",
+    "size": "2.1 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 16,
+    "name": "Soft Smoke Geometry",
+    "category": "Abstract",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/abstract/Soft%20Smoke%20Geometry.jpeg",
+    "size": "2.2 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 17,
+    "name": "Arctic Wolf in Snowstorm",
+    "category": "Animals",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/animals/Arctic%20Wolf%20in%20Snowstorm.jpeg",
+    "size": "2.8 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 18,
+    "name": "Eagle Flying Over Mountains",
+    "category": "Animals",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/animals/Eagle%20Flying%20Over%20Mountains.jpeg",
+    "size": "2.3 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 19,
+    "name": "Elephant in African Dust Plains",
+    "category": "Animals",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/animals/Elephant%20in%20African%20Dust%20Plains.jpeg",
+    "size": "3.0 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 20,
+    "name": "Great White Shark Underwater",
+    "category": "Animals",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/animals/Great%20White%20Shark%20Underwater.png",
+    "size": "2.4 MB",
+    "resolution": "1672×941"
+  },
+  {
+    "id": 21,
+    "name": "Hummingbird in Flight Macro",
+    "category": "Animals",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/animals/Hummingbird%20in%20Flight%20Macro.jpeg",
+    "size": "2.5 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 22,
+    "name": "Lion in Golden Savannah",
+    "category": "Animals",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/animals/Lion%20in%20Golden%20Savannah.jpeg",
+    "size": "2.8 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 23,
+    "name": "Polar Bear on Ice Floe",
+    "category": "Animals",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/animals/Polar%20Bear%20on%20Ice%20Floe.jpeg",
+    "size": "3.0 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 24,
+    "name": "Red Fox in Autumn Forest",
+    "category": "Animals",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/animals/Red%20Fox%20in%20Autumn%20Forest.jpeg",
+    "size": "3.7 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 25,
+    "name": "Snow Leopard on Mountain Ridge",
+    "category": "Animals",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/animals/Snow%20Leopard%20on%20Mountain%20Ridge.jpeg",
+    "size": "2.9 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 26,
+    "name": "Tiger in Dense Jungle",
+    "category": "Animals",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/animals/Tiger%20in%20Dense%20Jungle.jpeg",
+    "size": "3.5 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 27,
+    "name": "Aerial Coral Reef Coastline",
+    "category": "Beach",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/beach%20and%20ocean/Aerial%20Coral%20Reef%20Coastline.jpeg",
+    "size": "4.0 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 28,
+    "name": "Arctic Ocean Ice Water",
+    "category": "Beach",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/beach%20and%20ocean/Arctic%20Ocean%20Ice%20Water.jpeg",
+    "size": "2.9 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 29,
+    "name": "Bioluminescent Night Shore 2",
+    "category": "Beach",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/beach%20and%20ocean/Bioluminescent%20Night%20Shore%202.jpeg",
+    "size": "2.9 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 30,
+    "name": "Bioluminescent Night Shore",
+    "category": "Beach",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/beach%20and%20ocean/Bioluminescent%20Night%20Shore.jpeg",
+    "size": "3.0 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 31,
+    "name": "Calm Minimal Ocean Horizon",
+    "category": "Beach",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/beach%20and%20ocean/Calm%20Minimal%20Ocean%20Horizon.jpeg",
+    "size": "2.7 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 32,
+    "name": "Long Exposure Shore Waves",
+    "category": "Beach",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/beach%20and%20ocean/Long%20Exposure%20Shore%20Waves.jpeg",
+    "size": "3.0 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 33,
+    "name": "Minimal Ocean Horizon",
+    "category": "Beach",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/beach%20and%20ocean/Minimal%20Ocean%20Horizon.png",
+    "size": "2.0 MB",
+    "resolution": "1376×768"
+  },
+  {
+    "id": 34,
+    "name": "Ocean Cliff Sunset",
+    "category": "Beach",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/beach%20and%20ocean/Ocean%20Cliff%20Sunset.png",
+    "size": "2.2 MB",
+    "resolution": "1376×768"
+  },
+  {
+    "id": 35,
+    "name": "Rocky Tide Pool Shore",
+    "category": "Beach",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/beach%20and%20ocean/Rocky%20Tide%20Pool%20Shore.jpeg",
+    "size": "3.7 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 36,
+    "name": "Stormy Open Ocean Horizon",
+    "category": "Beach",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/beach%20and%20ocean/Stormy%20Open%20Ocean%20Horizon.jpeg",
+    "size": "2.7 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 37,
+    "name": "Sunset Cliff Beach 1",
+    "category": "Beach",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/beach%20and%20ocean/Sunset%20Cliff%20Beach%201.jpeg",
+    "size": "3.6 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 38,
+    "name": "Sunset Cliff Beach 2",
+    "category": "Beach",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/beach%20and%20ocean/Sunset%20Cliff%20Beach%202.jpeg",
+    "size": "3.9 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 39,
+    "name": "Tropical Beach Sunrise",
+    "category": "Beach",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/beach%20and%20ocean/Tropical%20Beach%20Sunrise.png",
+    "size": "2.2 MB",
+    "resolution": "1376×768"
+  },
+  {
+    "id": 40,
+    "name": "Tropical Crystal Shoreline",
+    "category": "Beach",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/beach%20and%20ocean/Tropical%20Crystal%20Shoreline.jpeg",
+    "size": "3.6 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 41,
+    "name": "Tropical Island Drone View",
+    "category": "Beach",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/beach%20and%20ocean/Tropical%20Island%20Drone%20View.jpeg",
+    "size": "3.8 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 42,
+    "name": "Alpine Golden Hour",
+    "category": "Cars",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/cars/Alpine%20Golden%20Hour.png",
+    "size": "2.1 MB",
+    "resolution": "1376×768"
+  },
+  {
+    "id": 43,
+    "name": "Autumn Countryside — Aston Martin DB12",
+    "category": "Cars",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/cars/Autumn%20Countryside%20%E2%80%94%20Aston%20Martin%20DB12.jpeg",
+    "size": "3.4 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 44,
+    "name": "Desert Highway GT Car",
+    "category": "Cars",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/cars/Desert%20Highway%20GT%20Car.png",
+    "size": "1.9 MB",
+    "resolution": "1376×768"
+  },
+  {
+    "id": 45,
+    "name": "Desert Sunset Highway — Ferrari 812 Superfast",
+    "category": "Cars",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/cars/Desert%20Sunset%20Highway%20%E2%80%94%20Ferrari%20812%20Superfast.jpeg",
+    "size": "2.6 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 46,
+    "name": "Forest Road Escape — Mercedes-AMG GT",
+    "category": "Cars",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/cars/Forest%20Road%20Escape%20%E2%80%94%20Mercedes-AMG%20GT.jpeg",
+    "size": "3.0 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 47,
+    "name": "Futuristic Tunnel Scene — McLaren 765LT",
+    "category": "Cars",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/cars/Futuristic%20Tunnel%20Scene%20%E2%80%94%20McLaren%20765LT.jpeg",
+    "size": "2.4 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 48,
+    "name": "Mountain Road Porsche",
+    "category": "Cars",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/cars/Mountain%20Road%20Porsche.png",
+    "size": "2.1 MB",
+    "resolution": "1376×768"
+  },
+  {
+    "id": 49,
+    "name": "Multi Car Garage",
+    "category": "Cars",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/cars/Multi%20Car%20Garage.png",
+    "size": "2.0 MB",
+    "resolution": "1672×941"
+  },
+  {
+    "id": 50,
+    "name": "Race Track Sunrise — Chevrolet Corvette Z06",
+    "category": "Cars",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/cars/Race%20Track%20Sunrise%20%E2%80%94%20Chevrolet%20Corvette%20Z06.jpeg",
+    "size": "2.6 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 51,
+    "name": "Rainy Night Supercar",
+    "category": "Cars",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/cars/Rainy%20Night%20Supercar.png",
+    "size": "2.5 MB",
+    "resolution": "1376×768"
+  },
+  {
+    "id": 52,
+    "name": "Rooftop Skyline Scene — Tesla Model S Plaid",
+    "category": "Cars",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/cars/Rooftop%20Skyline%20Scene%20%E2%80%94%20Tesla%20Model%20S%20Plaid.jpeg",
+    "size": "3.3 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 53,
+    "name": "Snow Mountain Scene — Audi R8 V10",
+    "category": "Cars",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/cars/Snow%20Mountain%20Scene%20%E2%80%94%20Audi%20R8%20V10.jpeg",
+    "size": "3.3 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 54,
+    "name": "Storm Atmosphere — Land Rover Range Rover",
+    "category": "Cars",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/cars/Storm%20Atmosphere%20%E2%80%94%20Land%20Rover%20Range%20Rover.jpeg",
+    "size": "3.3 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 55,
+    "name": "Make_snow_fall_slowly_202605072155",
+    "category": "Cars",
+    "author": "VaultWalls",
+    "type": "live",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/live%20cars/Make_snow_fall_slowly_202605072155.mp4",
+    "size": "1.9 MB",
+    "duration": "0:08"
+  },
+  {
+    "id": 56,
+    "name": "Range Rover Live",
+    "category": "Cars",
+    "author": "VaultWalls",
+    "type": "live",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/live%20cars/Range%20Rover%20Live.mp4",
+    "size": "3.6 MB",
+    "duration": "0:08"
+  },
+  {
+    "id": 57,
+    "name": "Ocean Night Waves",
+    "category": "Nature",
+    "author": "VaultWalls",
+    "type": "live",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/live%20nature/Ocean%20Night%20Waves.mp4",
+    "size": "20.4 MB",
+    "duration": "0:10"
+  },
+  {
+    "id": 58,
+    "name": "Floating Blur Light Orbs",
+    "category": "Minimal",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/minimal/Floating%20Blur%20Light%20Orbs.jpeg",
+    "size": "2.0 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 59,
+    "name": "Floating Glass Shapes",
+    "category": "Minimal",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/minimal/Floating%20Glass%20Shapes.jpeg",
+    "size": "1.8 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 60,
+    "name": "Frosted Blur Waves",
+    "category": "Minimal",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/minimal/Frosted%20Blur%20Waves.jpeg",
+    "size": "2.0 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 61,
+    "name": "Liquid Silk Minimal",
+    "category": "Minimal",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/minimal/Liquid%20Silk%20Minimal.png",
+    "size": "1.7 MB",
+    "resolution": "1376×768"
+  },
+  {
+    "id": 62,
+    "name": "Paper Fold Light Composition",
+    "category": "Minimal",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/minimal/Paper%20Fold%20Light%20Composition.jpeg",
+    "size": "2.5 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 63,
+    "name": "Soft Monochrome Terrain",
+    "category": "Minimal",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/minimal/Soft%20Monochrome%20Terrain.jpeg",
+    "size": "1.7 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 64,
+    "name": "Soft Stone Geometry",
+    "category": "Minimal",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/minimal/Soft%20Stone%20Geometry.png",
+    "size": "1.4 MB",
+    "resolution": "1376×768"
+  },
+  {
+    "id": 65,
+    "name": "Warm Beige Flow",
+    "category": "Minimal",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/minimal/Warm%20Beige%20Flow.png",
+    "size": "1.6 MB",
+    "resolution": "1376×768"
+  },
+  {
+    "id": 66,
+    "name": "Alpine Sunrise Valley",
+    "category": "Nature",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/nature/Alpine%20Sunrise%20Valley.jpeg",
+    "size": "3.6 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 67,
+    "name": "Arctic Ice Coastline",
+    "category": "Nature",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/nature/Arctic%20Ice%20Coastline.jpeg",
+    "size": "3.4 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 68,
+    "name": "Autumn Forest Path Detailed",
+    "category": "Nature",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/nature/Autumn%20Forest%20Path%20Detailed.jpeg",
+    "size": "4.1 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 69,
+    "name": "Autumn Forest Path",
+    "category": "Nature",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/nature/Autumn%20Forest%20Path.jpeg",
+    "size": "4.4 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 70,
+    "name": "Cave Waterfall Interior",
+    "category": "Nature",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/nature/Cave%20Waterfall%20Interior.jpeg",
+    "size": "3.6 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 71,
+    "name": "Dense Amazon Rainforest",
+    "category": "Nature",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/nature/Dense%20Amazon%20Rainforest.jpeg",
+    "size": "4.1 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 72,
+    "name": "Desert Dune Sunset",
+    "category": "Nature",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/nature/Desert%20Dune%20Sunset.jpeg",
+    "size": "2.6 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 73,
+    "name": "Japanese Bamboo Forest Path",
+    "category": "Nature",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/nature/Japanese%20Bamboo%20Forest%20Path.jpeg",
+    "size": "3.7 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 74,
+    "name": "Lavender Field Hills",
+    "category": "Nature",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/nature/Lavender%20Field%20Hills.jpeg",
+    "size": "3.5 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 75,
+    "name": "Mist Forest",
+    "category": "Nature",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/nature/Mist%20Forest.png",
+    "size": "2.5 MB",
+    "resolution": "1376×768"
+  },
+  {
+    "id": 76,
+    "name": "Mountain Glacier Edge",
+    "category": "Nature",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/nature/Mountain%20Glacier%20Edge.jpeg",
+    "size": "3.8 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 77,
+    "name": "Northern Forest Lake Reflection",
+    "category": "Nature",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/nature/Northern%20Forest%20Lake%20Reflection.jpeg",
+    "size": "3.2 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 78,
+    "name": "Redwood Forest Giants 1",
+    "category": "Nature",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/nature/Redwood%20Forest%20Giants%201.jpeg",
+    "size": "4.1 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 79,
+    "name": "Redwood Forest Giants 2",
+    "category": "Nature",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/nature/Redwood%20Forest%20Giants%202.jpeg",
+    "size": "3.8 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 80,
+    "name": "Rocky Coastal Cliffs",
+    "category": "Nature",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/nature/Rocky%20Coastal%20Cliffs.jpeg",
+    "size": "3.1 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 81,
+    "name": "Snow Mountain Lake",
+    "category": "Nature",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/nature/Snow%20Mountain%20Lake.png",
+    "size": "2.2 MB",
+    "resolution": "1376×768"
+  },
+  {
+    "id": 82,
+    "name": "Thunderstorm Prairie",
+    "category": "Nature",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/nature/Thunderstorm%20Prairie.jpeg",
+    "size": "2.9 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 83,
+    "name": "Tropical Beach at Dawn",
+    "category": "Nature",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/nature/Tropical%20Beach%20at%20Dawn.jpeg",
+    "size": "2.8 MB",
+    "resolution": "2752×1536"
+  },
+  {
+    "id": 84,
+    "name": "Waterfall Landscape",
+    "category": "Nature",
+    "author": "VaultWalls",
+    "type": "still",
+    "src": "https://raw.githubusercontent.com/VaultWalls/vaultwalls.github.io/main/All%20wallpapers/nature/Waterfall%20Landscape.png",
+    "size": "2.5 MB",
+    "resolution": "1376×768"
+  }
+]
