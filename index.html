@@ -1,419 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>VaultWalls</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VaultWalls — Live Wallpapers for Mac</title>
+  <meta name="description" content="Hundreds of stunning still and live wallpapers for Mac. Free, auto-updating, no account needed." />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <!-- NAVIGATION BAR -->
-  <nav class="navbar">
-    <div class="nav-left"></div>
-    <div class="nav-center">
-      <div class="nav-center-group">
-        <button class="search-btn" id="searchBtn" aria-label="Search">
-          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
-          </svg>
-        </button>
-        <div class="nav-tabs">
-          <button class="nav-tab active" data-page="home">Home</button>
-          <button class="nav-tab" data-page="explore">Explore</button>
-          <button class="nav-tab" data-page="media">My Media</button>
-        </div>
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">
+        <div class="logo-mark">V</div>
+        VaultWalls for Mac
+      </a>
+      <div class="nav-links">
+        <a href="#hero"     class="nav-link active" data-section="hero">Overview</a>
+        <a href="#features" class="nav-link"         data-section="features">Features</a>
+        <a href="#"         class="nav-link">Support</a>
+        <a href="#download" class="nav-link"         data-section="download">Pricing</a>
       </div>
-    </div>
-    <div class="nav-right">
-      <button class="nav-icon-btn" aria-label="Share">
-        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/>
-          <polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/>
-        </svg>
-      </button>
-      <button class="nav-icon-btn" id="settingsBtn" aria-label="Settings">
-        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-          <circle cx="12" cy="12" r="3"/>
-          <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/>
-        </svg>
-      </button>
+      <a href="#download" class="nav-cta">Download App</a>
     </div>
   </nav>
 
-  <!-- MAIN -->
-  <main class="main">
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-fade"></div>
+    <div class="hero-inner">
 
-    <!-- HOME PAGE -->
-    <section id="page-home" class="page active">
-
-      <div class="hero" id="hero">
-        <div class="hero-bg" id="heroBg"></div>
-        <video id="heroBgVideo" class="hero-bg-video" autoplay loop muted playsinline></video>
-        <div class="hero-gradient"></div>
-
-        <div class="hero-info" id="heroInfo">
-          <span class="hero-cat" id="heroCat"></span>
-          <h1 class="hero-title" id="heroTitle"></h1>
-          <p class="hero-meta" id="heroMeta"></p>
-          <div class="hero-actions">
-            <button class="btn-primary">
-              <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
-              View Wallpaper
-            </button>
-          </div>
-        </div>
-
-        <button class="hero-nav prev" id="heroPrev">&#10094;</button>
-        <button class="hero-nav next" id="heroNext">&#10095;</button>
-        <div class="hero-dots" id="heroDots"></div>
+      <div class="hero-copy">
+        <p class="hero-eyebrow">Free for macOS</p>
+        <h1>Beautiful wallpapers.<br>Right on your desktop.</h1>
+        <p class="hero-desc">Hundreds of hand-picked still and live wallpapers, updated automatically every time you launch. No account. No subscription.</p>
+        <a href="#" id="dl-mac" class="dl-btn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+          Download for Mac
+        </a>
+        <p class="hero-req">Requires macOS 12 or later</p>
       </div>
 
-      <div class="shelves">
-        <section class="shelf">
-          <header class="shelf-hdr">
-            <h2>Recommended For You</h2>
-            <button class="shelf-more">&#8250;</button>
-          </header>
-          <div class="shelf-row" id="shelf-recommended"></div>
-        </section>
-        <section class="shelf">
-          <header class="shelf-hdr">
-            <h2>Trending Now</h2>
-            <button class="shelf-more">&#8250;</button>
-          </header>
-          <div class="shelf-row" id="shelf-trending"></div>
-        </section>
-
-        <section class="shelf">
-          <header class="shelf-hdr">
-            <h2>Recently Added</h2>
-            <button class="shelf-more">&#8250;</button>
-          </header>
-          <div class="shelf-row" id="shelf-recent"></div>
-        </section>
-      </div>
-    </section>
-
-    <!-- EXPLORE PAGE -->
-    <section id="page-explore" class="page">
-      <div class="explore-hero">
-        <div class="explore-hero-content">
-          <p class="explore-greeting" id="explore-greeting"></p>
-          <h1 class="explore-title">Explore Wallpaper Library</h1>
-          <p class="explore-subtitle">Discover <span id="explore-count">0</span> stunning wallpapers</p>
-
-          <div class="explore-filter-tabs">
-            <button class="filter-tab active" data-filter="both">Both</button>
-            <button class="filter-tab" data-filter="still">Still</button>
-            <button class="filter-tab" data-filter="live">Live</button>
-          </div>
-
-          <div class="explore-search-wrap">
-            <span class="explore-search-icon">
-              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
-              </svg>
-            </span>
-            <input class="explore-search" id="explore-search" type="text" placeholder="Search wallpapers...">
-          </div>
-
-          <div class="explore-popular">
-            <span class="explore-popular-label">Popular:</span>
-            <button class="popular-tag" data-q="Space">Space</button>
-            <button class="popular-tag" data-q="Cars">Cars</button>
-            <button class="popular-tag" data-q="Nature">Nature</button>
-            <button class="popular-tag" data-q="Abstract">Abstract</button>
-            <button class="popular-tag" data-q="Minimal">Minimal</button>
-          </div>
-
-          <div class="explore-categories" id="explore-categories"></div>
-        </div>
-      </div>
-
-      <div class="explore-results">
-        <div class="explore-results-hdr">
-          <span class="explore-results-count" id="explore-results-count"></span>
-          <div class="sort-wrap">
-            <button class="sort-btn" id="sort-btn">
-              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                <line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/>
-              </svg>
-              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="margin-left:-5px">
-                <line x1="12" y1="5" x2="12" y2="19"/><polyline points="19 12 12 19 5 12"/>
-              </svg>
-              <span id="sort-label">Newest</span>
-            </button>
-            <div class="sort-dropdown" id="sort-dropdown" hidden>
-              <button class="sort-option active" data-sort="newest">Newest</button>
-              <button class="sort-option" data-sort="oldest">Oldest</button>
-              <button class="sort-option" data-sort="liked">Most Liked</button>
+      <div class="hero-device">
+        <div class="macbook">
+          <div class="mb-lid">
+            <div class="mb-screen">
+              <div class="mb-screen-bg"></div>
+              <div class="mb-app-win">
+                <div class="mb-win-bar">
+                  <span class="dot dot-r"></span>
+                  <span class="dot dot-y"></span>
+                  <span class="dot dot-g"></span>
+                  <div class="mb-win-tabs">
+                    <span class="mb-tab active">Home</span>
+                    <span class="mb-tab">Explore</span>
+                    <span class="mb-tab">My Media</span>
+                  </div>
+                </div>
+                <div class="mb-win-body">
+                  <div class="mb-hero-strip">
+                    <div class="mb-hero-info">
+                      <span class="mb-h-cat">SPACE</span>
+                      <span class="mb-h-title">Silver Surfer</span>
+                    </div>
+                  </div>
+                  <div class="mb-shelf">
+                    <div class="mb-card" style="background:radial-gradient(ellipse at 60% 40%,rgba(100,60,255,.6),#04040e)"></div>
+                    <div class="mb-card" style="background:radial-gradient(ellipse at 60% 45%,rgba(255,110,20,.6),#120500)"></div>
+                    <div class="mb-card" style="background:radial-gradient(ellipse at 55% 30%,rgba(0,180,100,.5),#021008)"></div>
+                    <div class="mb-card" style="background:radial-gradient(ellipse at 45% 55%,rgba(0,180,240,.5),#010810)"></div>
+                    <div class="mb-card" style="background:radial-gradient(ellipse at 50% 40%,rgba(190,80,255,.6),#06060e)"></div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="explore-grid" id="explore-grid"></div>
-      </div>
-    </section>
-
-    <!-- MY MEDIA PAGE -->
-    <section id="page-media" class="page">
-      <div class="media-page">
-
-        <div class="media-page-header">
-          <div class="media-page-titleblock">
-            <h1 class="media-page-title">My Media</h1>
-            <p class="media-count" id="media-count">0 wallpapers</p>
+          <div class="mb-base">
+            <div class="mb-hinge"></div>
           </div>
-          <div class="media-search-wrap">
-            <svg class="media-search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
-            </svg>
-            <input class="media-search-input" id="media-search" type="text" placeholder="Search Wallpapers">
-          </div>
-          <button class="media-add-btn" onclick="alert('Coming soon!')">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/>
-            </svg>
-            Add Video
-          </button>
         </div>
-
-        <div class="media-filters">
-          <button class="media-filter-btn active" data-mf="all">
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-            History
-          </button>
-          <button class="media-filter-btn" data-mf="local">
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-            Downloaded
-          </button>
-        </div>
-
-        <div class="media-table">
-          <div class="media-table-hdr">
-            <span class="mth-num">#</span>
-            <span class="mth-prev">PREVIEW</span>
-            <span class="mth-title">TITLE</span>
-            <span class="mth-cat">CATEGORY</span>
-            <span class="mth-author">AUTHOR</span>
-            <span class="mth-dur">DURATION</span>
-            <span class="mth-res">RESOLUTION</span>
-            <span class="mth-size">SIZE</span>
-            <span class="mth-likes">LIKES</span>
-          </div>
-          <div class="media-table-body" id="media-table-body"></div>
-        </div>
-
-        <div class="media-empty" id="media-empty" hidden>
-          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><polyline points="8 21 12 17 16 21"/></svg>
-          <p>Nothing here yet.</p>
-          <p class="media-empty-sub">Open wallpapers to build your history, or download/like them to see them here.</p>
-        </div>
-
-      </div>
-    </section>
-
-  </main>
-
-  <!-- WALLPAPER VIEWER -->
-  <div id="viewer" class="viewer" aria-modal="true" role="dialog">
-    <div class="viewer-bg" id="viewer-bg"></div>
-    <video class="viewer-video" id="viewer-video" autoplay loop muted playsinline></video>
-    <div class="viewer-spinner" id="viewer-spinner"></div>
-    <div class="viewer-gradient"></div>
-
-    <button class="viewer-back" id="viewer-back" aria-label="Go back">
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-        <polyline points="15 18 9 12 15 6"/>
-      </svg>
-    </button>
-
-    <div class="viewer-scroll">
-      <div class="viewer-spacer"></div>
-      <div class="viewer-info">
-        <h1 class="viewer-title" id="viewer-title"></h1>
-        <p class="viewer-cat" id="viewer-cat"></p>
-        <div class="viewer-meta" id="viewer-meta"></div>
-        <div class="viewer-actions">
-          <div class="viewer-act-line"></div>
-          <button class="viewer-set-btn" id="viewer-set">
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
-            Set as Wallpaper
-          </button>
-          <button class="viewer-icon-btn" id="viewer-dl" aria-label="Download">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
-              <polyline points="7 10 12 15 17 10"/>
-              <line x1="12" y1="15" x2="12" y2="3"/>
-            </svg>
-          </button>
-          <div class="viewer-act-line viewer-act-line-r"></div>
-        </div>
-        <p class="viewer-note">Not selected on any monitor</p>
       </div>
 
-      <div class="viewer-lower">
-        <div class="viewer-content-card">
-          <p class="viewer-content-label">WALLPAPER CONTENT</p>
-          <h3 class="viewer-content-title">Share this wallpaper<br>with everyone</h3>
-          <div class="viewer-share-row">
-            <button class="viewer-share-btn">
-              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                <circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/>
-                <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
-              </svg>
-              Share Link
-            </button>
-            <button class="viewer-share-btn" id="viewer-copy-link">
-              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
-                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
-              </svg>
-              Copy Link
-            </button>
-          </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features" id="features">
+    <div class="features-inner">
+      <p class="section-eyebrow">Why VaultWalls</p>
+      <h2 class="section-title">Everything you need,<br>nothing you don't.</h2>
+      <div class="feat-grid">
+        <div class="feat-card">
+          <div class="feat-icon-wrap">▶</div>
+          <h3>Live Wallpapers</h3>
+          <p>Set looping video wallpapers directly on your desktop — no extra tools or setup required.</p>
         </div>
-        <div class="viewer-related">
-          <h3 class="viewer-related-title">Related Wallpapers</h3>
-          <div class="viewer-related-row" id="viewer-related-row"></div>
+        <div class="feat-card">
+          <div class="feat-icon-wrap">✦</div>
+          <h3>Curated Library</h3>
+          <p>Hand-picked wallpapers across Space, Nature, Cars, Abstract, Beach, and more categories.</p>
+        </div>
+        <div class="feat-card">
+          <div class="feat-icon-wrap">↑</div>
+          <h3>Always Fresh</h3>
+          <p>New wallpapers appear automatically on launch — the library grows without you doing anything.</p>
+        </div>
+        <div class="feat-card">
+          <div class="feat-icon-wrap">◎</div>
+          <h3>Free Forever</h3>
+          <p>No subscription, no watermarks, no account. Download once and enjoy it forever.</p>
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
-  <!-- GLOBAL SEARCH OVERLAY -->
-  <div id="search-overlay" class="search-overlay hidden">
-    <div class="search-overlay-backdrop"></div>
-    <div class="search-modal">
-      <div class="search-modal-bar">
-        <svg class="search-modal-icon-svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-          <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
-        </svg>
-        <input class="search-modal-input" id="search-modal-input" type="text" placeholder="Search Wallpapers" autocomplete="off" spellcheck="false">
-        <button class="search-modal-close" id="search-modal-close">ESC</button>
+  <!-- LIVE WALLPAPER HIGHLIGHT -->
+  <section class="highlight">
+    <div class="highlight-inner">
+      <div class="highlight-copy">
+        <p class="section-eyebrow">Live Wallpapers</p>
+        <h2>Your desktop<br>comes alive.</h2>
+        <p>Choose from a growing collection of looping video wallpapers that play right on your Mac desktop. Ambient and subtle — beautiful at every moment.</p>
       </div>
-
-      <div class="search-pre" id="search-pre">
-        <div class="search-pre-section">
-          <p class="search-pre-label">Categories</p>
-          <div class="search-pre-cats" id="search-pre-cats"></div>
+      <div class="highlight-visual">
+        <div class="live-preview-card">
+          <div class="live-preview-bg"></div>
+          <div class="live-play-icon">▶</div>
+          <div class="live-label">LIVE</div>
         </div>
-        <div class="search-pre-section">
-          <p class="search-pre-label">Quick Filters</p>
-          <div class="search-pre-filters">
-            <button class="search-chip search-type-chip" data-q="still">Still</button>
-            <button class="search-chip search-type-chip" data-q="live">Live</button>
-            <button class="search-chip search-type-chip" data-q="space">Space</button>
-            <button class="search-chip search-type-chip" data-q="nature">Nature</button>
-            <button class="search-chip search-type-chip" data-q="cars">Cars</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="search-results" id="search-results" hidden>
-        <div class="search-results-header" id="search-results-header"></div>
-        <div class="search-results-list" id="search-results-list"></div>
       </div>
     </div>
-  </div>
+  </section>
 
-  <!-- SETTINGS MODAL -->
-  <div id="settings-modal" class="settings-modal hidden">
-    <div class="settings-inner">
-      <div class="settings-header">
-        <h2 class="settings-title">Settings</h2>
-        <button class="settings-close" id="settings-close">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-            <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
-          </svg>
-        </button>
-      </div>
-      <div class="settings-body">
-
-        <div class="settings-section">
-          <h3 class="settings-section-title">Playback</h3>
-          <label class="settings-row">
-            <div class="settings-row-text">
-              <span>Autoplay Live Wallpapers</span>
-              <small>Start video preview automatically on hover</small>
-            </div>
-            <div class="toggle-wrap">
-              <input type="checkbox" class="toggle-input" id="setting-autoplay">
-              <span class="toggle-track"></span>
-            </div>
-          </label>
-          <label class="settings-row">
-            <div class="settings-row-text">
-              <span>Mute Videos</span>
-              <small>No audio on live wallpapers</small>
-            </div>
-            <div class="toggle-wrap">
-              <input type="checkbox" class="toggle-input" id="setting-mute">
-              <span class="toggle-track"></span>
-            </div>
-          </label>
-          <label class="settings-row">
-            <div class="settings-row-text">
-              <span>Loop Videos</span>
-              <small>Seamlessly repeat live wallpapers</small>
-            </div>
-            <div class="toggle-wrap">
-              <input type="checkbox" class="toggle-input" id="setting-loop">
-              <span class="toggle-track"></span>
-            </div>
-          </label>
-        </div>
-
-        <div class="settings-section">
-          <h3 class="settings-section-title">Display</h3>
-          <div class="settings-row">
-            <div class="settings-row-text">
-              <span>Default Filter</span>
-              <small>What type to show on Explore page</small>
-            </div>
-            <select class="settings-select" id="setting-filter">
-              <option value="both">Both</option>
-              <option value="still">Still</option>
-              <option value="live">Live</option>
-            </select>
-          </div>
-          <div class="settings-row">
-            <div class="settings-row-text">
-              <span>Hero Rotation Speed</span>
-              <small>How fast the home carousel cycles</small>
-            </div>
-            <select class="settings-select" id="setting-interval">
-              <option value="6000">6 seconds</option>
-              <option value="11000">11 seconds</option>
-              <option value="15000">15 seconds</option>
-              <option value="20000">20 seconds</option>
-            </select>
-          </div>
-        </div>
-
-        <div class="settings-section">
-          <h3 class="settings-section-title">About</h3>
-          <div class="settings-about">
-            <p class="settings-about-name">VaultWalls</p>
-            <p class="settings-about-desc">The premium wallpaper gallery — curated for quality.</p>
-            <p class="settings-about-ver">Version 1.0.0</p>
-          </div>
-        </div>
-
+  <!-- GALLERY GRID -->
+  <section class="gallery">
+    <div class="gallery-inner">
+      <p class="section-eyebrow">The Library</p>
+      <h2 class="section-title">A wallpaper for every mood.</h2>
+      <div class="gallery-grid">
+        <div class="g-card tall" style="background:radial-gradient(ellipse at 68% 38%,rgba(130,60,255,.6) 0%,transparent 60%),linear-gradient(135deg,#04040e,#170d42)"><span>Space</span></div>
+        <div class="g-card" style="background:radial-gradient(ellipse at 60% 45%,rgba(255,110,20,.6) 0%,transparent 55%),linear-gradient(135deg,#120500,#8c3400)"><span>Cars</span></div>
+        <div class="g-card" style="background:radial-gradient(ellipse at 55% 30%,rgba(255,180,80,.5) 0%,transparent 55%),linear-gradient(135deg,#021008,#0c8840)"><span>Nature</span></div>
+        <div class="g-card" style="background:radial-gradient(ellipse at 50% 40%,rgba(190,80,255,.6) 0%,transparent 55%),linear-gradient(135deg,#06060e,#240850)"><span>Abstract</span></div>
+        <div class="g-card" style="background:radial-gradient(ellipse at 60% 35%,rgba(140,200,240,.5) 0%,transparent 55%),linear-gradient(135deg,#050c12,#204868)"><span>Animals</span></div>
+        <div class="g-card" style="background:radial-gradient(ellipse at 45% 55%,rgba(0,220,240,.5) 0%,transparent 55%),linear-gradient(135deg,#010810,#035878)"><span>Beach</span></div>
       </div>
     </div>
-  </div>
+  </section>
 
-  <!-- Auto-update banner (Tauri only — invisible in browser) -->
-  <div id="update-banner" class="update-banner">
-    <div class="update-icon">↑</div>
-    <div class="update-text">
-      <span class="update-title">Update Available</span>
-      <span class="update-sub">VaultWalls <span id="update-version"></span> is ready to install</span>
+  <!-- DOWNLOAD CTA -->
+  <section class="cta-section" id="download">
+    <div class="cta-glow"></div>
+    <div class="cta-inner">
+      <p class="section-eyebrow">Get Started</p>
+      <h2>Upgrade your desktop today.</h2>
+      <p class="cta-sub">Free download. No account required.</p>
+      <a href="#" id="dl-mac-2" class="dl-btn large">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+        Download App — Free
+      </a>
+      <p class="cta-req">macOS 12 or later · Apple Silicon &amp; Intel</p>
     </div>
-    <button id="update-install-btn" class="update-btn-install">Install &amp; Relaunch</button>
-    <button id="update-dismiss-btn" class="update-btn-dismiss">Later</button>
-  </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <span class="footer-logo">VaultWalls</span>
+    <span class="footer-copy">© 2026 VaultWalls. All rights reserved.</span>
+  </footer>
 
   <script src="script.js"></script>
 </body>
