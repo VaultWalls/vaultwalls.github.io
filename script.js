@@ -824,10 +824,6 @@ function renderMediaTable() {
   });
 }
 
-  const n  = likedIds.size;
-  if (el) el.textContent = n > 0 ? n : '';
-}
-
 function refreshMediaPage() {
   if (document.getElementById('page-media').classList.contains('active')) renderMediaTable();
 }
@@ -884,4 +880,29 @@ async function init() {
   }
 }
 
+async function checkForUpdates() {
+  if (!window.__TAURI__) return;
+  try {
+    const update = await window.__TAURI__.updater.check();
+    if (!update) return;
+    const banner     = document.getElementById('update-banner');
+    const verEl      = document.getElementById('update-version');
+    const installBtn = document.getElementById('update-install-btn');
+    const dismissBtn = document.getElementById('update-dismiss-btn');
+    if (!banner) return;
+    verEl.textContent = update.version;
+    banner.classList.add('visible');
+    installBtn.onclick = async () => {
+      installBtn.textContent = 'Downloading…';
+      installBtn.disabled = true;
+      await update.downloadAndInstall();
+      await window.__TAURI__.process.relaunch();
+    };
+    dismissBtn.onclick = () => banner.classList.remove('visible');
+  } catch (e) {
+    console.warn('Update check:', e);
+  }
+}
+
 init();
+checkForUpdates();

@@ -404,6 +404,17 @@
     </div>
   </div>
 
+  <!-- Auto-update banner (Tauri only — invisible in browser) -->
+  <div id="update-banner" class="update-banner">
+    <div class="update-icon">↑</div>
+    <div class="update-text">
+      <span class="update-title">Update Available</span>
+      <span class="update-sub">VaultWalls <span id="update-version"></span> is ready to install</span>
+    </div>
+    <button id="update-install-btn" class="update-btn-install">Install &amp; Relaunch</button>
+    <button id="update-dismiss-btn" class="update-btn-dismiss">Later</button>
+  </div>
+
   <script src="script.js"></script>
 </body>
 </html>
