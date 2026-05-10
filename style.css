@@ -356,6 +356,36 @@ a { text-decoration: none; color: inherit; }
 .footer-copy  { font-size: 0.78rem; color: rgba(255,255,255,0.28); }
 
 /* ── RESPONSIVE ─────────────────────────────────────────────────── */
+/* ── GATEKEEPER HELP ────────────────────────────────────────────── */
+.gk-help {
+  margin-top: 24px;
+  max-width: 400px;
+}
+.gk-help summary {
+  cursor: pointer;
+  font-size: .82rem;
+  color: rgba(255,255,255,0.38);
+  list-style: none;
+  transition: color 200ms;
+}
+.gk-help summary::-webkit-details-marker { display: none; }
+.gk-help summary:hover { color: rgba(255,255,255,0.65); }
+.gk-steps {
+  margin-top: 14px;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 12px;
+  padding: 16px 20px;
+  font-size: .81rem;
+  color: rgba(255,255,255,0.5);
+  line-height: 1.65;
+  text-align: left;
+}
+.gk-steps p { margin-bottom: 10px; }
+.gk-steps ol { padding-left: 16px; }
+.gk-steps li { margin-bottom: 5px; }
+.gk-steps strong { color: rgba(255,255,255,0.82); }
+
 @media (max-width: 960px) {
   .hero-inner { flex-direction: column; padding-top: 110px; gap: 48px; }
   .hero-copy { max-width: 100%; text-align: center; }
