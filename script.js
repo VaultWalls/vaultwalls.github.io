@@ -1,6 +1,6 @@
 // ── DOWNLOAD LINK ────────────────────────────────────────────────────
 // Replace this URL with your actual GitHub Release DMG link after building
-const MAC_URL = 'https://github.com/VaultWalls/vaultwalls.github.io/releases/download/v1.0.0/VaultWalls-1.0.0.dmg';
+const MAC_URL = 'https://github.com/VaultWalls/vaultwalls.github.io/releases/download/v1.0.0/VaultWalls.dmg';
 
 document.querySelectorAll('#dl-mac, #dl-mac-2').forEach(el => {
   if (el) el.href = MAC_URL;
